@@ -1,0 +1,26 @@
+.transactionHistory {
+  width: 700px;
+  margin: 0 auto;
+  border: 2px solid rgb(5, 71, 121);
+  background-color: white;
+  border-radius: 10px;
+}
+.transactionHead {
+  background-color: rgb(74, 164, 237);
+  color: azure;
+}
+.transactionElement {
+  border: 2px solid rgb(40, 92, 157);
+  border-radius: 10px;
+}
+
+tr:nth-child(2n) {
+  border: 2px solid rgb(104, 106, 109);
+  background-color: rgb(164, 163, 163);
+}
+.transactionList:nth-of-type(even) {
+  background-color: #dce1e4;
+}
+.transactionItem {
+  color: rgb(78, 78, 78);
+}
